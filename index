@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweat and Sweater</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1><span class="blue">SWEAT</span><span class="gold">AND SWEATER</span></h1>
+    <p class="url">https://www.sweatandsweater.com</p>
+  </header>
+
+  <section class="productos">
+    <h2>Te puede gustar:</h2>
+    <div class="galeria">
+      <div class="producto">
+        <img src="cheetos.jpg" alt="Cheetos Picantes" />
+        <p>Cheetos Picantes</p>
+      </div>
+      <div class="producto">
+        <img src="kitkat.jpg" alt="KitKat Marshmallow" />
+        <p>KitKat Marshmallow</p>
+      </div>
+      <div class="producto">
+        <img src="gatorade.jpg" alt="Japan Gatorade" />
+        <p>Japan Gatorade</p>
+      </div>
+    </div>
+  </section>
+
+  <nav class="menu">
+    <div class="nav-superior">
+      <button class="activo">Para ti</button>
+      <button>Packs</button>
+      <button>Novedades</button>
+      <button>Top</button>
+    </div>
+    <div class="sub-menu">
+      <button class="inicio">Inicio</button>
+      <button>Buscar</button>
+      <button>Pedidos y recogidas</button>
+      <button>Perfil y personalización</button>
+      <button>Sugerencias</button>
+    </div>
+  </nav>
+</body>
+</html>
