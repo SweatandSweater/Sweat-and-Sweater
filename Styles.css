@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffde9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px 10px 5px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.blue {
+  color: #0096c7;
+}
+
+.gold {
+  color: #bfa035;
+}
+
+.url {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+.productos {
+  padding: 20px;
+}
+
+.productos h2 {
+  margin-bottom: 10px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.producto {
+  width: 30%;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f0f0f0;
+  border-top: 2px solid #ccc;
+}
+
+.nav-superior,
+.sub-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.nav-superior button,
+.sub-menu button {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.activo {
+  border-bottom: 2px solid #0096c7;
+  font-weight: bold;
+}
+
+.inicio {
+  background: #0096c7;
+  color: white;
+  border-radius: 5px;
+}
